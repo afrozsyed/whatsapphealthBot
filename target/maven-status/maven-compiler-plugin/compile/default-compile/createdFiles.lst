@@ -1,0 +1,10 @@
+com\healthexpert\healthbot\HealthbotApplication.class
+com\healthexpert\healthbot\repository\PatientCaseRepository.class
+com\healthexpert\healthbot\service\HealthCenterService.class
+com\healthexpert\healthbot\service\WhatsAppBotService.class
+com\healthexpert\healthbot\entity\HealthCenter.class
+com\healthexpert\healthbot\service\TwilioService.class
+com\healthexpert\healthbot\repository\HealthCenterRepository.class
+com\healthexpert\healthbot\controller\WebhookController.class
+com\healthexpert\healthbot\controller\HealthCenterController.class
+com\healthexpert\healthbot\entity\PatientCase.class
