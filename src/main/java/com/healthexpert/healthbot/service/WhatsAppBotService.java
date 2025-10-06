@@ -141,4 +141,7 @@ public class WhatsAppBotService {
         return null; // if not found, you may ask patient again
     }
 
+    public void testSandBox(String from, String body) {
+        twilloService.sendSandBoxMessage(from,"Hello this is test");
+    }
 }

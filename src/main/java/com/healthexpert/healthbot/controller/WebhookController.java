@@ -26,4 +26,11 @@ public class WebhookController {
                                @RequestParam("Body") String body) {
         botService.handleIncommingMessage(from,body);
     }
+
+    @PostMapping("/webhook-test")
+    public void testWebhookSandBox(@RequestParam("From") String from,
+                               @RequestParam("Body") String body) {
+        botService.testSandBox(from,body);
+
+    }
 }
